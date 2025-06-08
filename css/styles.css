@@ -1,0 +1,181 @@
+body {
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #d0bc87;
+
+}
+
+@font-face {
+    font-family: 'Minecraft.ttf';
+    src: url('../fontes/Minecraft.ttf');
+}
+
+@font-face {
+    font-family: '04B_30__.TTF';
+    src: url('../fontes/04B_30__.TTF');
+}
+
+
+
+header {
+    font-family: '04B_30__.TTF';
+    font-size: 35px;
+    background-color: #a59571;
+    text-align: center;
+    height: 100px;
+    text-shadow: 1px 1px 10px white; 
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+    
+}
+
+
+#container{  
+    padding: 40px;
+}
+
+
+
+#separar {
+    font-family:  '04B_30__.TTF';
+    text-shadow: 1px 1px 4px white ;
+    font-size: 25px;
+
+    
+}
+
+button {
+    height: 60px;
+    width: 150px;
+    text-align: center;
+    border-radius: 20%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    transition: transform 0.5s ease;  /* Define a transição para o efeito de movimento */
+    box-shadow: 2px 5px 2px black;
+    background-color: white;
+    
+}
+
+button:hover {
+    transform: scale(1.1); /* Redimensiona o botão quando o mouse está sobre ele */
+    opacity: 80%;
+}
+
+
+#btn {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    align-items: center;
+    
+}
+
+
+#moeda {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+
+#ajuste {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#ajuste img {
+    height: 200px;
+}
+
+
+
+h2 {
+    font-family: '04B_30__.TTF';
+    text-shadow: 1px 1px 4px white ;
+    font-size: 27px;
+    justify-content: center;
+    display: flex;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    font-family: 'Minecraft.ttf';
+    font-size: 25px;
+    background-color: #a59571;
+}
+footer span {
+    font-size: 23px;
+}
+
+footer a{
+    text-decoration: none;
+    color: Gold;
+    text-shadow: 1px 3px 1px black;
+}
+
+
+footer a:hover{
+    text-decoration: none;
+    color: red;
+    text-shadow: 1px 3px 1px black;
+    transition: 1s;
+}
+
+
+/* responsividade - funfou pra quase tudo pelo q eu vi */
+@media (max-width: 768px) {
+    header {
+        font-size: 30px;
+        font-family: 'Minecraft.ttf';
+    }
+    
+    nav {
+        text-align: center;
+    }
+
+    #btn {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 24px;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+
+    span {
+        margin-top: 25px;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    } 
+
+    button {
+        height: 100px;
+        width: 90px;
+    }
+
+    #container2 {
+        text-align: center;
+        align-items: center;
+        
+    }
+
+    footer {
+        font-size: 23px;
+    }
+
+}   
